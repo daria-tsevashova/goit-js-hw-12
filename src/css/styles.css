@@ -131,3 +131,16 @@
   align-items: center;
   justify-content: center;
 }
+
+.load-more:hover,
+.load-more:focus {
+  background: #6c8cff;
+}
+
+.load-more.is-hidden {
+  display: none;
+}
+
+.load-more:not(.is-hidden) {
+  display: block;
+}
